@@ -1,0 +1,25 @@
+body {
+    font: normal medium/1.4 sans-serif;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 100px;
+  }
+  th ,td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #eee;
+  }
+  tbody tr:nth-child(even) {
+    background: #D6EAF8 ;
+  }
+  tbody tr:nth-child(odd) {
+    background: #85C1E9;
+  }
+  th{
+    background: #2E86C1;
+  }
+  .bg-dark-blue{
+    background: #2E86C1;
+  }
